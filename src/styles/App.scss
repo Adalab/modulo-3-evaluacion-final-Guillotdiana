@@ -1,4 +1,59 @@
+
 *{
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
+    background-color: black;
 }
+
+.header{
+    
+    &-title{
+       width: 100vw;
+        
+    }
+
+}
+.card{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;justify-items: center;
+    
+
+    &-img{
+        width: 50vw;
+    }
+
+    &-info{
+        background-color: #07b0c7;
+        border: 2px solid #07b0c7;
+    }
+
+    &-title{
+        color: #07b0c7;
+        
+        text-align: center;
+        
+    }
+
+
+}
+
+.link-card{
+    text-decoration: none;
+}
+
+.input-filter{
+    border: 2px solid #07b0c7;
+    border-radius: 15px;
+    text-align: center;
+    height: 30px;
+    width: 250px;
+
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+
