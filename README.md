@@ -4,7 +4,7 @@ En esta web te permite navigar entre los personajes mas famosos de nuestra serie
 
 📁 Acceso al proyecto
 
-Para acceder al proyecto puedes clonar el repositorio: 
+Para acceder al proyecto puedes clonar el repositorio: https://github.com/Adalab/modulo-3-evaluacion-final-Guillotdiana.git
 
 📋 Requisitos previos
 
