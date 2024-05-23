@@ -1,8 +1,19 @@
-# React + Vite
+RICK & MORTY
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+En esta web te permite navigar entre los personajes mas famosos de nuestra serie favorita y averiguar mas datos sobre cada uno de ellos.
 
-Currently, two official plugins are available:
+📁 Acceso al proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Para acceder al proyecto puedes clonar el repositorio: 
+
+📋 Requisitos previos
+
+Para visualizarlo en el navegador:
+
+instalación npm
+
+inicio de npm
+
+✅ Tecnologías utilizadas
+
+-HTML utilizado para crear la estructura de la aplicación. -CSS para darle estilo a la maquetación -React y JavaScript para darle funcionalidad.
