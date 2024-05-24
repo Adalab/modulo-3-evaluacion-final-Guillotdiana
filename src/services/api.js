@@ -22,3 +22,6 @@ const getAPiData = (search) => {
 }   
 export default getAPiData;
 
+
+
+

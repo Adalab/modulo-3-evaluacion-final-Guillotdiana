@@ -2,16 +2,19 @@
 import CharacterCard from "./CharacterCard"
 
 
-const CharacterList = ({character}) => {
+const CharacterList = ({filterCharacter,filterRadio }) => {
 
-    const list = character.map((item,i)=> <CharacterCard key={i} info={item}/>)
+    const list = filterCharacter.map((item)=> <CharacterCard key={item.id} info={item}/>)
+    
+
 
   return (
-    <div>
+    <ul className="card">
         {list}
-    </div>
+    </ul>
   
   )
 }
 
 export default CharacterList
+
