@@ -59,7 +59,7 @@ function App() {
   return (
     <>
     <header className="header">
-      <img className="header-title" src="./public/rickymorti.jpg" alt="" />
+      <img className="header-title" src="/public/rickymorti.jpg" alt="" />
     </header>
     <Routes>
     <Route path="/" element={ <Home status={status} handleStatus={handleStatus}  handleChangeName={handleChangeName} search={search} filterCharacter={filterCharacter}/>}/>
