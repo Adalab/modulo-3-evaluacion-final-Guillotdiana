@@ -9,11 +9,12 @@ const CharacterList = ({filterCharacter,filterRadio }) => {
 
 
   return (
-    <div>
+    <ul className="card">
         {list}
-    </div>
+    </ul>
   
   )
 }
 
 export default CharacterList
+

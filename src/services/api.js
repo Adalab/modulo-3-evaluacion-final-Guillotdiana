@@ -2,7 +2,7 @@
 
 const getAPiData = (search) => {
   
-    return fetch('https://raw.githubusercontent.com/Adalab/rick-y-morty/master/data/rick-y-morty.json')
+    return fetch('https://rickandmortyapi.com/api/character/?results=20')
       .then((response) => response.json())
       .then((data) => {
         const newArray = data.results.map((character) =>{
@@ -25,4 +25,3 @@ export default getAPiData;
 
 
 
-//'https://rickandmortyapi.com/api/character/?results=20'

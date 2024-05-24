@@ -8,7 +8,7 @@ const Home = ({handleChangeName,search,filterCharacter,handleStatus,status, }) =
      <main className="main">
          <Filter status={status} handleChangeName={handleChangeName} search={search}  handleStatus={handleStatus}  />
          <section>
-          {filterCharacter.length>0?(<CharacterList filterCharacter={filterCharacter} />):(`No hay ningún personaje que coincida con la palabra ${search} `) }
+          {filterCharacter.length>0?(<CharacterList filterCharacter={filterCharacter} />):(<p className="paragraph">`No hay ningún personaje que coincida con la palabra {search} `</p>) }
              </section>
      </main>
     </>

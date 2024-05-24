@@ -35,10 +35,20 @@ function App() {
   const filterCharacter = character
   .filter((item)=>{
    return item.name.toLowerCase().includes(search.toLowerCase())})
-  
-  //const filterRadio = character 
-   //.filter((item) => item.status === status);
+   .filter((item) =>{
+    if(status === "Alive"){
+      return item.status === "Alive"
+    }else if(status === "Dead"){
+      return item.status === "Dead"
+    }else{
+      return true
+    }
+   }
+     );
    console.log(filterCharacter)
+  
+ 
+   
   
   
     const getInfo = (idNumber)=>{
@@ -56,8 +66,8 @@ function App() {
 
     <Route path="/detail/:id" element={<Detail getInfo={getInfo}/>} />
     <Route path="*" element={<>
-      <p>Esta ruta no existe</p>
-      <Link to="/">Home</Link>
+      <p className="paragraph-home">Esta ruta no existe</p>
+      <Link className="link-home" to="/">Home</Link>
       </>}/>
     </Routes>
 
