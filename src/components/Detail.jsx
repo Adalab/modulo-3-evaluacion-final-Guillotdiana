@@ -10,7 +10,7 @@ const Detail = ({getInfo}) => {
   return (
     <div>
         <article className="detail" >
-            <div className="detail-container">
+            <div   className="detail-container">
               <img className="detail-img" src={data.img} alt={data.name} />
               <div className="detail-box" >
               <h5>{data.name}</h5>

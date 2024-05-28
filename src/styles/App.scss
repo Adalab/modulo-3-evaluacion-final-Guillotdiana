@@ -7,10 +7,27 @@
 }
 
 body{
+    background-image: url(../images/movile.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-color: black;
+    background-size: 500px;
+  
+    
+    
+    @media screen and (width > 767px) {
+        background-image: url(../images/cover1.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px;
+           
+    }
 }
 
 .header{
+
     
     &-title{
        width: 100vw;
@@ -39,10 +56,14 @@ body{
     &-img{
         width: 100px;
         height: 100px;
+        border-radius: 45px;
+        border: 2px solid #0cfa4d ;
+        margin: 10px;
         
 
         @media screen and (width > 767px) {
-           width: 100px;
+           width: 150px;
+           height: 150px;
                        
         }
     
@@ -53,9 +74,10 @@ body{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-   
-      
-        border: 2px solid #07b0c7;
+       width: 200px;
+       height: 250px;
+        border-radius: 15px;  
+        background: rgba(121, 115, 115, 0.288);
     }
 
     &-title{
@@ -67,7 +89,7 @@ body{
 
     &-box{
         width: 100px;
-        background-color: #07b0c7;
+        ;
     }
 
 
@@ -127,13 +149,16 @@ body{
     flex-direction: column;
     align-items: center;
     
+    
 
     &-container{
-        border: 2px solid  #07b0c7;
-        background-color: #07b0c7 
+        border: 2px solid #0cfa4d ;
+        border-radius: 15px;
+        font-size: 25px;
+       
     }
     &-box{
-        background-color: #07b0c7 ;
+        background: rgba(121, 115, 115, 0.288); 
         text-align: center;
     }
 
@@ -159,6 +184,9 @@ body{
     color: white;
     display: flex;
     justify-content: center;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 30px;
 
 }
 
@@ -168,4 +196,9 @@ body{
     font-weight: 600;
     display: flex;
     justify-content: center;
+}
+
+.footer{
+    padding: 15px;
+    color: gainsboro;
 }

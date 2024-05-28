@@ -6,7 +6,8 @@ import local from "../services/local";
 import { Link, Route, Routes, matchPath, useLocation } from "react-router-dom";
 import Home from "./Home";
 import Detail from "./Detail";
-
+import picturemorty from "../images/title.png";
+import Footer from "./Footer";
 
 
 
@@ -59,7 +60,7 @@ function App() {
   return (
     <>
     <header className="header">
-      <img className="header-title" src="/public/rickymorti.jpg" alt="" />
+      <img className="header-title" src={picturemorty} alt="" />
     </header>
     <Routes>
     <Route path="/" element={ <Home status={status} handleStatus={handleStatus}  handleChangeName={handleChangeName} search={search} filterCharacter={filterCharacter}/>}/>
@@ -70,6 +71,8 @@ function App() {
       <Link className="link-home" to="/">Home</Link>
       </>}/>
     </Routes>
+
+    <Footer/>
 
 
 
